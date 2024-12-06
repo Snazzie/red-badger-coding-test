@@ -27,8 +27,8 @@ public class SimulationTest
         };
 
         var input = new ProgramInput(inputString);
-
         var sim = new Simulation(input);
+        
         sim.Run();
 
         sim.GetResult().Should().BeEquivalentTo(expectedOutput);
