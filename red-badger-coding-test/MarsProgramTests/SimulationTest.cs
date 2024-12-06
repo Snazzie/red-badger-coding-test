@@ -10,7 +10,6 @@ public class SimulationTest
     public void SimulationShouldRunCorrectly()
     {
         const string inputString = """
-
                                    5  3 
                                    1  1  E 
                                    RFRFRFRF 
