@@ -1,0 +1,11 @@
+C:\Users\acoop\Documents\GitHub\red-badger-coding-test\red-badger-coding-test\MarsProgram\bin\Debug\net9.0\MarsProgram.deps.json
+C:\Users\acoop\Documents\GitHub\red-badger-coding-test\red-badger-coding-test\MarsProgram\bin\Debug\net9.0\MarsProgram.dll
+C:\Users\acoop\Documents\GitHub\red-badger-coding-test\red-badger-coding-test\MarsProgram\bin\Debug\net9.0\MarsProgram.pdb
+C:\Users\acoop\Documents\GitHub\red-badger-coding-test\red-badger-coding-test\MarsProgram\obj\Debug\net9.0\MarsProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acoop\Documents\GitHub\red-badger-coding-test\red-badger-coding-test\MarsProgram\obj\Debug\net9.0\MarsProgram.AssemblyInfoInputs.cache
+C:\Users\acoop\Documents\GitHub\red-badger-coding-test\red-badger-coding-test\MarsProgram\obj\Debug\net9.0\MarsProgram.AssemblyInfo.cs
+C:\Users\acoop\Documents\GitHub\red-badger-coding-test\red-badger-coding-test\MarsProgram\obj\Debug\net9.0\MarsProgram.csproj.CoreCompileInputs.cache
+C:\Users\acoop\Documents\GitHub\red-badger-coding-test\red-badger-coding-test\MarsProgram\obj\Debug\net9.0\MarsProgram.dll
+C:\Users\acoop\Documents\GitHub\red-badger-coding-test\red-badger-coding-test\MarsProgram\obj\Debug\net9.0\refint\MarsProgram.dll
+C:\Users\acoop\Documents\GitHub\red-badger-coding-test\red-badger-coding-test\MarsProgram\obj\Debug\net9.0\MarsProgram.pdb
+C:\Users\acoop\Documents\GitHub\red-badger-coding-test\red-badger-coding-test\MarsProgram\obj\Debug\net9.0\ref\MarsProgram.dll
