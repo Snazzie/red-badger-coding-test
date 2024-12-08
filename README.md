@@ -6,7 +6,7 @@ A program that simulates mars mission and outputs the final position and directi
 
 ### args
 
-#### `-input`
+#### `-input <value>`
 
 String input containing the boundaries of the mars and individual rover commands.
 
