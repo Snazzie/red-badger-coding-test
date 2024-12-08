@@ -23,13 +23,9 @@ public class Simulation
             var commandSequence = ProgramInput.RobotCommandMaps[robot];
             BotNetwork.ExecuteCommands(CommandHelper.ParseCommandSequence(commandSequence).ToArray(), robot);
         }
-
-        var result = GetResult();
-
-        Console.WriteLine(string.Join("\n", result));
     }
 
-    public IEnumerable<string> GetResult()
+    public IEnumerable<string> GetResultTexts()
     {
         foreach (var robot in ProgramInput.Robots)
         {

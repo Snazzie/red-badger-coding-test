@@ -31,7 +31,7 @@ public class SimulationTest
         
         sim.Run();
 
-        sim.GetResult().Should().BeEquivalentTo(expectedOutput);
+        sim.GetResultTexts().Should().BeEquivalentTo(expectedOutput);
     }
 
     [Test]
@@ -48,7 +48,7 @@ public class SimulationTest
         var sim = new Simulation(input);
         sim.Run();
 
-        sim.GetResult().Should().BeEquivalentTo([
+        sim.GetResultTexts().Should().BeEquivalentTo([
             "0  3  N  LOST"
         ]);
     }
@@ -69,7 +69,7 @@ public class SimulationTest
         var sim = new Simulation(input);
         sim.Run();
 
-        sim.GetResult().Should().BeEquivalentTo([
+        sim.GetResultTexts().Should().BeEquivalentTo([
             "0  3  N  LOST",
             "1  3  E"
         ]);
@@ -89,7 +89,7 @@ public class SimulationTest
         var sim = new Simulation(input);
         sim.Run();
 
-        sim.GetResult().Should().BeEquivalentTo([
+        sim.GetResultTexts().Should().BeEquivalentTo([
             "0  0  W  LOST"
         ]);
     }
@@ -108,7 +108,7 @@ public class SimulationTest
         var sim = new Simulation(input);
         sim.Run();
 
-        sim.GetResult().Should().BeEquivalentTo([
+        sim.GetResultTexts().Should().BeEquivalentTo([
             "3  3  E  LOST"
         ]);
     }

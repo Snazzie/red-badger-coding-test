@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsProgram", "MarsProgram\MarsProgram.csproj", "{63E23928-C1C2-43E6-B969-11B1BAD96528}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsProgramTests", "MarsProgramTests\MarsProgramTests.csproj", "{166D7E78-E357-4561-A4E5-86BA611D6E5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsProgram.UnitTests", "MarsProgram.UnitTests\MarsProgram.UnitTests.csproj", "{166D7E78-E357-4561-A4E5-86BA611D6E5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
