@@ -25,7 +25,7 @@ String input containing the boundaries of the mars and individual rover commands
 #### input format
 
 ```
-5  3           // top right boundary of mars
+5  3           // top right boundary of mars (max value is 50 for both x and y)
 1  1  E        // starting position and direction of first rover
 RFRFRFRF       // command sequence for first rover
 
