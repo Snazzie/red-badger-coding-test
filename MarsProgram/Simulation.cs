@@ -5,15 +5,15 @@ namespace MarsProgram;
 
 public class Simulation
 {
-    BotNetwork BotNetwork { get; }
+    RobotCommander RobotCommander { get; }
     ProgramInput ProgramInput { get; }
 
     public Simulation(ProgramInput programInput)
     {
         ProgramInput = programInput;
 
-        BotNetwork = new BotNetwork(programInput.GridBounds);
-        BotNetwork.AddRobots(programInput.Robots);
+        RobotCommander = new RobotCommander(programInput.GridBounds);
+        RobotCommander.AddRobots(programInput.Robots);
     }
 
     public void Run()
@@ -21,7 +21,7 @@ public class Simulation
         foreach (var robot in ProgramInput.Robots)
         {
             var commandSequence = ProgramInput.RobotCommandMaps[robot];
-            BotNetwork.ExecuteCommands(CommandHelper.ParseCommandSequence(commandSequence).ToArray(), robot);
+            RobotCommander.ExecuteCommands(CommandHelper.ParseCommandSequence(commandSequence).ToArray(), robot);
         }
     }
 

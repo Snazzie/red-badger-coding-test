@@ -2,7 +2,7 @@
 
 namespace MarsProgram;
 
-public class BotNetwork
+public class RobotCommander
 {
     GridBounds GridBounds { get; }
 
@@ -10,7 +10,7 @@ public class BotNetwork
 
     public void AddRobots(IEnumerable<Robot> robots) => Robots.AddRange(robots);
     
-    public BotNetwork(GridBounds gridBounds)
+    public RobotCommander(GridBounds gridBounds)
     {
         GridBounds = gridBounds;
     }
