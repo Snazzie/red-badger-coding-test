@@ -7,9 +7,8 @@ namespace MarsProgramTests;
 
 public class CommandHelperTests
 {
-    
     [Test]
-    public void ShouldParseCommandSequenceCorrectly()
+    public void CommandSequenceIsParsedCorrectly()
     {
         var commandSequence = "RFL";
         var commands = CommandHelper.ParseCommandSequence(commandSequence);

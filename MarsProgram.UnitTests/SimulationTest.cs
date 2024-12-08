@@ -37,26 +37,8 @@ public class SimulationTest
     }
 
     [Test]
-    public void RobotShouldBeSetLostWhenItReachesTheEdgeOfTheGrid_Y()
-    {
-        var robot = new Robot(Direction.N, new Coordinates(0, 0));
-        var commands = new Dictionary<Robot, string>
-        {
-            [robot] = "FFFF"
-        };
-
-        var input = new ProgramInput(new GridBounds(3, 3), [robot], commands);
-
-        var sim = new Simulation(input);
-        sim.Run();
-
-        sim.GetResultTexts().Should().BeEquivalentTo([
-            "0  3  N  LOST"
-        ]);
-    }
-
-    [Test]
-    public void RobotShouldIgnoreCommandsWhenItReachesTheEdgeOfTheGrid_WhenBotLostAtPosition()
+    public void IfNewCoordinateContainsLostBot_RobotShouldIgnoreCommand
+        ()
     {
         var robot1 = new Robot(Direction.N, new Coordinates(0, 1));
         var robot2 = new Robot(Direction.N, new Coordinates(0, 0));
@@ -78,12 +60,12 @@ public class SimulationTest
     }
 
     [Test]
-    public void RobotShouldBeSetLostWhenItReachesTheEdgeOfTheGrid_Y()
+    public void RobotShouldBeSetLost_WhenItReachesTheEdgeOfTheGrid_Y()
     {
-        var robot = new Robot(Direction.W, new Coordinates(0, 0));
+        var robot = new Robot(Direction.N, new Coordinates(0, 0));
         var commands = new Dictionary<Robot, string>
         {
-            [robot] = "F"
+            [robot] = "FFFF"
         };
 
         var input = new ProgramInput(new GridBounds(3, 3), [robot], commands);
@@ -92,12 +74,12 @@ public class SimulationTest
         sim.Run();
 
         sim.GetResultTexts().Should().BeEquivalentTo([
-            "0  0  W  LOST"
+            "0  3  N  LOST"
         ]);
     }
     
     [Test]
-    public void RobotShouldBeSetLostWhenItReachesTheEdgeOfTheGrid_X()
+    public void RobotShouldBeSetLost_WhenItReachesTheEdgeOfTheGrid_X()
     {
         var robot = new Robot(Direction.E, new Coordinates(3, 3));
         var commands = new Dictionary<Robot, string>

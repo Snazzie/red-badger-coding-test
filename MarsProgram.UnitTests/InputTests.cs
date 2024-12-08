@@ -46,7 +46,7 @@ public class InputTests
     }
 
     [Test]
-    public void ShouldSetRobotCommands()
+    public void RobotCommandMapsIsSetCorrectly()
     {
         var input = new ProgramInput(InputString);
 
