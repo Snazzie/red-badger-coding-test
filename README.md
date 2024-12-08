@@ -4,6 +4,18 @@ A program that simulates mars mission and outputs the final position and directi
 
 ## How to run `MarsProgram.exe`
 
+### Requirements
+
+- IDE capablity to compile and run .net 9.0
+
+### Steps
+
+1. Clone the repository.
+2. Open the solution file `MarsProgram.sln` in your IDE.
+3. Build and run the executable `MarsProgram.exe` with input arguments as described below.
+
+Alternatively, you can run the program by writing additional unit tests in the [Simulation Unit Tests file](MarsProgram.UnitTests/SimulationTest.cs).
+
 ### args
 
 #### `-input <value>`
