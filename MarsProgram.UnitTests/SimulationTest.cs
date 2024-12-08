@@ -78,7 +78,7 @@ public class SimulationTest
     }
 
     [Test]
-    public void RobotShouldBeSetLostWhenItReachesTheEdgeOfTheGrid_X()
+    public void RobotShouldBeSetLostWhenItReachesTheEdgeOfTheGrid_Y()
     {
         var robot = new Robot(Direction.W, new Coordinates(0, 0));
         var commands = new Dictionary<Robot, string>
@@ -97,7 +97,7 @@ public class SimulationTest
     }
     
     [Test]
-    public void RobotShouldBeSetLostWhenItReachesTheEdgeOfTheGrid_XX()
+    public void RobotShouldBeSetLostWhenItReachesTheEdgeOfTheGrid_X()
     {
         var robot = new Robot(Direction.E, new Coordinates(3, 3));
         var commands = new Dictionary<Robot, string>
